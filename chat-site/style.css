@@ -1,0 +1,108 @@
+body {
+  background-image: url("bgimg.png");
+  background-attachment: fixed;
+  background-size: 100;
+  padding: 0%;
+  overflow: hidden;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  
+}
+textarea {
+  min-width: 95%;
+  max-height:56px;
+  min-height: 56px;
+  max-width: 95%;
+  border-radius: 70px;
+  padding-top: 18px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+  background-color: rgb(58, 58, 63);
+  align-self: bottom;
+  position: absolute;
+  bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.textarea-div {
+position: fixed;
+width: 100%;
+}
+.other-people-message {
+  color: whitesmoke;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 15px 15px 15px;
+  width: 500px;
+  border-radius: 0px 20px 20px 20px;
+  margin-bottom: 100px;
+  font-size: smaller;
+}
+.author{
+  margin-bottom: 0px;
+  color: rgb(177, 190, 160);
+  font-weight: bolder;
+  float: right;
+}
+.me{
+   color: black;
+  background-color: rgb(81, 154, 179);
+  padding: 15px 15px 15px 15px;
+  width: 500px;
+  border-radius: 30px 30px 0px 30px;
+display:  inline-block;
+  margin-bottom: 100px;
+  align-self: right;
+  margin-left: 040vw;
+  font-size: smaller;
+}
+@media only screen and (max-with:7680px)
+{
+textarea{
+  
+}
+}
+@mmedia onljy screen and (max-width: 768px) {
+   .main{
+    width: 60%;
+   }
+
+textarea {
+  min-width: 95%;
+  max-height:56px;
+  min-height: 56px;
+  max-width: 95%;
+  border-radius: 70px;
+  padding-top: 18px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+  background-color: rgb(58, 58, 63);
+  align-self: bottom;
+  position: absolute;
+  bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.textarea-div {
+position: fixed;
+width: 60%;
+}
+.other-people-message {
+  padding: 15px 15px 15px 15px;
+  width: 200px;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 100px;
+}
+.me{
+   color: black;
+  background-color: rgb(81, 154, 179);
+  padding: 15px 15px 15px 15px;
+  width: 200px;
+  border-radius: 30px 30px 0px 30px;
+display:  inline-block;
+  margin-bottom: 10px;
+  align-self: right;
+  margin-left: 73px;
+}  
+}  
